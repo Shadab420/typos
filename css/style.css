@@ -1,1 +1,186 @@
-body{ background: yellow; }
+/* default styles */
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', 'sans-serif';
+    color: #939393;
+}
+
+body{
+
+    background: #EFEFEF;
+    font-size: 1.6em;
+    
+
+}
+
+h1{
+    font-size: 4.2rem;
+}
+
+h2{
+    font-size: 3.2rem;
+    color: #5B5B5B;
+}
+
+h3{
+    font-size: 2.4rem;
+    color: #5B5B5B;
+}
+
+h4{
+    font-size: 1.9rem;
+}
+
+h5{
+    font-size: 1.6rem;
+    color: #5B5B5B;
+}
+
+h6{
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #00AFFF;
+}
+
+.company-name{
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 700;
+    margin-top: 4rem;
+}
+
+.navbar{
+    text-align: center;
+    border-top: 0.1rem solid #E6E6E6;
+    border-bottom: 0.1rem solid #f9f9f9;
+    padding: 2rem 0;
+    margin: 4rem 5rem;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right: 4rem;
+}
+
+.navbar ul li a{
+    color: #939393;
+}
+
+.section01, .section02, .section03{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid white;
+}
+
+.section01 .item01{
+    
+}
+
+.section01 .item02{
+    padding: 0 4rem;
+}
+
+.section01 .item02 h2{
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+.section01 .item02 small{
+    font-size: 1.4rem;
+}
+
+.section01 .item02 p{
+    margin-top: 1.5rem;
+}
+
+
+.section02 .item{
+    margin: 3rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+.section02 .item h5{
+    text-align: center;
+}
+
+.section02 .item h5::before{
+    content: "";
+    background: #D0D0D0;
+    width: 3rem;
+    height: 0.2rem;
+    margin-bottom: 0.5rem;
+    margin-right: 11%;
+    display: inline-block;
+}
+
+.section02 .item h5::after{
+    content: "";
+    background: #D0D0D0;
+    width: 3rem;
+    height: 0.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 11%;
+    display: inline-block;
+}
+
+.section02 .item .see-more{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.section02 .item .see-more a{
+    color: #10B2FD;
+}
+
+.section02 .item .see-more a::before{
+    content: "";
+    display: inline-block;
+    height: 0.2rem;
+    width: 3rem;
+    margin-right: 16%;
+    background: #D0D0D0;
+}
+
+.section02 .item .see-more a::after{
+    content: "";
+    display: inline-block;
+    height: 0.2rem;
+    width: 3rem;
+    margin-left: 16%;
+    background: #D0D0D0;
+}
+
+.section03 .item{
+    margin: 3rem;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+
+
