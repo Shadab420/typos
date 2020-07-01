@@ -49,6 +49,7 @@ h6{
 
 p{
     font-size: 1.6rem;
+    line-height: 2.5rem;
 }
 
 ul{
@@ -84,7 +85,7 @@ a{
     color: #939393;
 }
 
-.section01, .section02, .section03{
+.section01, .section02, .section03, .section04{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,6 +95,10 @@ a{
     width: 80%;
     margin-left: 10%;
     border-bottom: 1px solid white;
+}
+
+.section03{
+    border-bottom: none;
 }
 
 .section01 .item01{
@@ -121,7 +126,6 @@ a{
 .section02 .item{
     margin: 3rem;
     text-align: justify;
-    line-height: 2.5rem;
 }
 
 .section02 .item h5{
@@ -176,10 +180,79 @@ a{
     background: #D0D0D0;
 }
 
-.section03 .item{
+.section03 .item, .section04 .item{
     margin: 3rem;
     text-align: justify;
-    line-height: 2.5rem;
+}
+
+.section04 .item p, 
+.section04 .item ul, 
+.section04 .item input,
+.section04 .item textarea{
+    width: 30rem;
+}
+ 
+.section04 .item input{
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.section04 .item input,
+.section04 .item textarea{
+    background-color: transparent;
+}
+
+.section04 .item ul li a{
+    text-decoration: underline;
+}
+
+.section04 .item h3{
+    color: #999999;
+}
+
+.section04 .item:nth-child(1) h3{
+    margin: 30px 0;
+}
+
+.section04 .item:nth-child(2) h3, .section04 .item ul li{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.message-form{
+    font-weight: bold;
+}
+
+.send-btn{
+    width: 110px;
+    background-color: #00AFFF;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 1rem;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.send-btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #00AFFF;
+    border: 1px solid #00AFFF;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.copyright-txt, .designed-by-text{
+    color: #000;
+    margin-bottom: 3rem;
 }
 
 
