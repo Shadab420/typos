@@ -61,6 +61,11 @@ a{
     color: #00AFFF;
 }
 
+.container{
+    width: 80%;
+    margin: auto;
+}
+
 .company-name{
     text-align: center;
     font-family: Georgia;
@@ -85,16 +90,25 @@ a{
     color: #939393;
 }
 
-.section01, .section02, .section03, .section04{
-    display: flex;
+.section{
+    width: 100%;
+    border-bottom: 1px solid white;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
-.section{
-    width: 80%;
-    margin-left: 10%;
-    border-bottom: 1px solid white;
+.section .item{
+    margin: 3rem 1rem;
+    text-align: justify;
+}
+
+
+.section .item img{
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .section03{
@@ -120,12 +134,6 @@ a{
 
 .section01 .item02 p{
     margin-top: 1.5rem;
-}
-
-
-.section02 .item{
-    margin: 3rem;
-    text-align: justify;
 }
 
 .section02 .item h5{
@@ -180,16 +188,11 @@ a{
     background: #D0D0D0;
 }
 
-.section03 .item, .section04 .item{
-    margin: 3rem;
-    text-align: justify;
-}
-
 .section04 .item p, 
 .section04 .item ul, 
 .section04 .item input,
 .section04 .item textarea{
-    width: 30rem;
+    width: 100%;
 }
  
 .section04 .item input{
@@ -211,7 +214,7 @@ a{
 }
 
 .section04 .item:nth-child(1) h3{
-    margin: 30px 0;
+    margin: 0 0 2rem 0;
 }
 
 .section04 .item:nth-child(2) h3, .section04 .item ul li{
@@ -221,6 +224,8 @@ a{
 
 .message-form{
     font-weight: bold;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .send-btn{
@@ -246,8 +251,7 @@ a{
 footer{
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: auto;
+    width: 100%;
 }
 
 .copyright-txt, .designed-by-text{
